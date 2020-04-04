@@ -1,8 +1,12 @@
 # Welcome to Pengkuh's GitHub Pages
 
-[Check it out](https://pengdst.github.io/)
+[Pages](https://pengdst.github.io/)
 
-My Brain is awesome. This is [edit on GitHub](https://github.com/pengdst/pengdst.github.io/edit/master/README.md).
+Hello, my name is Pengkuh. I interested in Android and Web Programming
+My Brain is awesome. 
+[My Profile](https://pengdst.github.io/)
+
+This is [edit on GitHub](https://github.com/pengdst/pengdst.github.io/edit/master/README.md).
 
 Whenever commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in this site, from the content in Markdown files.
 
