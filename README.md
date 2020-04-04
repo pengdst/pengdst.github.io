@@ -1,17 +1,19 @@
 # Welcome to Pengkuh's GitHub Pages
 
 Hello, my name is Pengkuh. I interested in Android and Web Programming <br>
-### <br> My Brain is awesome. </br>
-<br> [My Profile](https://pengdst.github.io/)
-<br> [Pages](https://pengdst.github.io/)
+ <br> 
+ ### My Brain is awesome. 
+ <br>
 
+- [My Profile](https://github.com/pengdst/)
+- [Pages](https://pengdst.github.io/)
 
 Whenever commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in this site, from the content in Markdown files.
 
 This is [edit on GitHub](https://github.com/pengdst/pengdst.github.io/edit/master/README.md).
 
-## _Markdown
-### This a tutorial_
+## _Markdown_
+### _This a tutorial_
 
 _Markdown is a lightweight and easy-to-use syntax for styling your writing._
 
