@@ -11,7 +11,8 @@ Whenever commit to this repository, GitHub Pages will run [Jekyll](https://jekyl
 
 This is [edit on GitHub](https://github.com/pengdst/pengdst.github.io/edit/master/README.md).
 
-## _Markdown_
+## Markdown
+
 ### _This a tutorial_
 
 _Markdown is a lightweight and easy-to-use syntax for styling your writing._
