@@ -1,8 +1,6 @@
 # Welcome to Pengkuh's GitHub Pages
 
-Hello, my name is Pengkuh. I love Android and Web Programming.
-
-## My Brain is awesome.
+Hello, my name is Pengkuh. I love Android and Web Programming. My Brain is awesome!!!
  
 - [My Profile](https://github.com/pengdst/)
 - [Pages](https://pengdst.github.io/)
