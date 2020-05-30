@@ -1,4 +1,8 @@
+<?php
 
+    echo "https://localhost/api/profile-api/?apicall=skills";
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
