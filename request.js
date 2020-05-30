@@ -4,7 +4,7 @@ getJSON(url, function(status, data) {
     if (status != 200) {
         console.error(status);
     } else {
-        var text = `URL: ${data.api_url}<br>` +
+        var text =
             `Status: ${data.status}<br>` +
             `Skills: ${data.skills}`
 
