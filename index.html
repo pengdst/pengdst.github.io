@@ -5,9 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pengkuh's Resume</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
+
+    <div class="mypanel"></div>
+
+    <script>
+        $.getJSON('http://localhost/api/profile-api/?apicall=skills', function(data) {
+
+            var text = `
+                    URL: ${data.api_url}<br>
+                    Status: ${data.status}<br>
+                    Skills: ${data.skills}`
+
+
+            $(".mypanel").html(text);
+        });
+    </script>
 
 </body>
 
