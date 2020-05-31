@@ -10,8 +10,7 @@ export function createCORSRequest(method, url) {
         xhr = new XDomainRequest();
         xhr.open(method, url);
     } else {
-        xhr = false;
-        return;
+        return xhr = false;
     }
     return xhr;
 }
