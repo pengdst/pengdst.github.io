@@ -1,3 +1,5 @@
+import * as network from "network_helper.js";
+
 var getJSON = function(url, callback) {
 
     var xhr = createCORSRequest('GET', url);
