@@ -1,6 +1,8 @@
-import * as network from "network_helper.js";
+import {
+    createCORSRequest
+} from './network_helper.js';
 
-var getJSON = function(url, callback) {
+export var getJSON = function(url, callback) {
 
     var xhr = createCORSRequest('GET', url);
     if (!xhr) {

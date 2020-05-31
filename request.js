@@ -1,3 +1,11 @@
+import {
+    createCORSRequest,
+    baseURL
+} from './assets/js/helpers/network_helper.js';
+import {
+    getJSON
+} from './assets/js/helpers/request_helper.js';
+
 var url = baseURL + '?apicall=skills';
 
 getJSON(url, function(status, data) {
