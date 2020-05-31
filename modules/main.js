@@ -1,1 +1,1 @@
-import * as Request from '../index.js';
+import {} from '../index.js';
