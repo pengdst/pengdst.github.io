@@ -1,0 +1,30 @@
+.jumbotron {
+    padding: 3rem;
+}
+
+.bg-peelblue {
+    background-color: #e9ecef;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.fab-bottom {
+    bottom: 1rem;
+}
+
+.fab-end {
+    right: 1rem;
+}
+
+.fab-fixed {
+    position: fixed;
+}
+
+.fab {
+    transition: all .3s ease-in-out;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
