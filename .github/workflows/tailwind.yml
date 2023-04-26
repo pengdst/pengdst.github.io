@@ -72,8 +72,8 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path:
-            - ./dist
-            - ./public
+            - /dist
+            - /public
 
   # Deployment job
   deploy:
