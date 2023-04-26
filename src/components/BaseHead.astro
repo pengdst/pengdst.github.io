@@ -1,0 +1,11 @@
+---
+interface Props {
+  title: string;
+  icon?: string;
+}
+
+const {title, icon = './img/avatar.ico'} = Astro.props;
+---
+<link rel="shortcut icon" type="image/x-icon" href={icon}/>
+<meta name="generator" content={Astro.generator}/>
+<title>{title}</title>
