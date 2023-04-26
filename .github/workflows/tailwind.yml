@@ -66,14 +66,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build Tailwind
         run: ${{ steps.detect-package-manager.outputs.manager }} run prod
-      - name: Build Tailwind
-        run: ${{ steps.detect-package-manager.outputs.manager }} run prod
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-        with:
-          path:
-            - /dist
-            - /public
 
   # Deployment job
   deploy:
