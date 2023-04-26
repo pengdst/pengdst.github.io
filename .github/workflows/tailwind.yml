@@ -67,7 +67,7 @@ jobs:
       - name: Build Tailwind
         run: ${{ steps.detect-package-manager.outputs.manager }} run prod
       - name: Create build directory
-        run: mkdir build && cp -r ./dist ./build && cp -r ./public/index.html ./build
+        run: mkdir build && cp -r ./dist ./build && cp -r ./public/* ./build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
