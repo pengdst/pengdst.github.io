@@ -2,6 +2,9 @@
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
+		container: {
+			center: true
+		},
 		extend: {
 			colors: {
 				primary: '#6b7280',
@@ -14,9 +17,6 @@ module.exports = {
 				darkLight: '#64748b'
 			}
 		},
-	},
-	container: {
-		center: true
 	},
 	plugins: [],
 }
