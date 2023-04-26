@@ -2,6 +2,7 @@
   "name": "pengdst.github.io",
   "version": "1.0.0",
   "description": "Website Portfolio pengdst.github.io",
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -25,6 +26,7 @@
   "homepage": "https://pengdst.github.io#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.2",
+    "@astrojs/tailwind": "^3.1.1",
     "astro": "^2.3.1"
   }
 }
