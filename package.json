@@ -2,7 +2,6 @@
   "name": "pengdst.github.io",
   "version": "1.0.0",
   "description": "Website Portfolio pengdst.github.io",
-  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
