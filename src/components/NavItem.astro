@@ -7,7 +7,11 @@ interface Props {
 const {label, url} = Astro.props as Props;
 ---
 
-<a class="relative flex flex-col gap-1 items-center justify-center hover:text-sky-600 focus:text-sky-600 text-lg leading-relaxed no-underline font-serif transition-[color] duration-100 ease-out text-primaryBorder dark:text-primaryBorderDark"
+<a class="sidebar-icon group"
    aria-label={label} href={url}>
     <slot/>
+
+    <span class="sidebar-tooltip group-hover:scale-100 group-focus-visible:scale-0 group-hover:animate-bounce">
+        {label}
+    </span>
 </a>
