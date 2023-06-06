@@ -14,14 +14,14 @@ const {title, image, source, desc} = Astro.props;
              src={image}
              alt={title}>
     </div>
-    <div class="grid p-4 text-primaryText">
+    <div class="grid p-4 text-primaryText dark:text-secondaryTextDark">
         <a rel="prefetch"
            target="_blank"
            href={source}
-           class="no-underline text-xl text-primaryText font-semibold leading-normal">
+           class="no-underline text-xl text-primaryText dark:text-secondaryTextDark font-semibold leading-normal">
           {title}
         </a>
-        <p class="font-light leading-normal text-primaryText mb-2 text-lg" set:html={desc} />
+        <p class="font-light leading-normal text-primaryText dark:text-secondaryTextDark mb-2 text-lg" set:html={desc} />
         <div class="flex justify-end gap-1 mt-2">
             <a class="font-heading no-underline flex items-center gap-2 py-1 px-2 transition-300 hover:text-slate-800"
                href={source}
