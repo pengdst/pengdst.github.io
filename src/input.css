@@ -7,17 +7,20 @@
         @apply relative flex
         items-center justify-center
         h-12 w-12 mx-auto gap-1 leading-relaxed
-        rounded-3xl bg-primaryBackground
-        text-lg no-underline font-serif text-primaryBorder
+        rounded-3xl
+        text-lg no-underline font-serif
+        bg-primaryBackground text-primaryBorder
+        dark:text-primaryBorderDark dark:bg-primaryBackgroundDark
         focus:text-sky-600
         hover:bg-accent hover:text-primaryText hover:rounded-xl hover:shadow-lg
-        dark:text-primaryBorderDark
+        dark:hover:bg-accent dark:hover:text-primaryText dark:hover:rounded-xl dark:hover:shadow-lg
         transition-all duration-300 ease-linear
     }
 
     .sidebar-tooltip {
         @apply absolute w-auto p-2 m-2 flex min-w-max bottom-14 md:bottom-0 md:left-14 rounded-md shadow-md
         text-primaryText bg-primaryBackground text-xs font-bold font-serif
+        dark:text-primaryTextDark dark:bg-primaryBackgroundDark
         transition-all duration-100 scale-0 origin-left hover:scale-0 focus:scale-0
     }
 }
