@@ -4,6 +4,17 @@ import Footer from '../components/Footer.astro';
 import Nav from '../components/Nav.astro';
 const { title } = Astro.props
 ---
+<script>
+    import {isDarkMode} from '../data/setting';
+
+    isDarkMode.subscribe(isDarkModeEnabled => {
+        const className = 'dark';
+        const bodyClass = window.document.body.classList;
+
+        isDarkModeEnabled ? bodyClass.add(className) : bodyClass.remove(className)
+    })
+</script>
+
 <html lang="en">
     <head title={title}>
         <meta charset="utf-8"/>
