@@ -1,0 +1,12 @@
+---
+import DarkmodeButton from './DarkmodeButton.svelte';
+---
+
+<div class="navbar bg-secondaryBackground dark:bg-secondaryBackgroundDark">
+    <div class="navbar-start">
+        <a href="/" class="btn btn-ghost normal-case text-xl text-primaryText dark:text-secondaryTextDark">Home</a>
+    </div>
+    <div class="navbar-end">
+        <DarkmodeButton client:load />
+    </div>
+</div>
