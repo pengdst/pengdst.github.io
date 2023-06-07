@@ -12,7 +12,7 @@ const {title, image, source, desc} = Astro.props;
     <div class="border-b-2 border-primaryBorder dark:border-primaryBorderDark">
         <img class="relative block w-full h-48 object-cover bg-primaryBackground dark:bg-primaryBackgroundDark blur-[2px] hover:blur-0"
              src={image}
-             alt={title}>
+             alt={title} loading="lazy">
     </div>
     <div class="grid p-4 text-primaryText dark:text-secondaryTextDark">
         <a rel="prefetch"
